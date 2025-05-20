@@ -44,7 +44,6 @@ public class DoubleLinkedLists14 {
             System.out.println("Indeks tidak valid!");
             return;
         }
-        
         if (index == 0) {
             addFirst(data);
         } else if (index == size) {
@@ -98,12 +97,10 @@ public class DoubleLinkedLists14 {
             System.out.println("List kosong!");
             return;
         }
-
         Node14 current = head;
         while (current != null && !current.data.nim.equals(key)) {
             current = current.next;
         }
-
         if (current == null || current.next == null) {
             System.out.println("Tidak ada data setelah NIM " + key);
             return;
@@ -202,7 +199,6 @@ public class DoubleLinkedLists14 {
         while (current != null && !current.data.nim.equals(key)) {
             current = current.next;
         }
-    
         if (current != null) {
             Node14 newNode = new Node14(current, data, current.next);
             if (current.next != null) {

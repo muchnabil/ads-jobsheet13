@@ -13,6 +13,6 @@ public class Mahasiswa14 {
     }
 
     public String toString() {
-        return "NIM: " + nim + ", Nama: " + nama + ", Kelas: " + kelas + ", IPK: " + ipk;
+        return "NIM : " + nim + ", Nama : " + nama + ", Kelas : " + kelas + ", IPK : " + ipk;
     }
 }

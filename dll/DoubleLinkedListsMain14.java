@@ -4,7 +4,7 @@ public class DoubleLinkedListsMain14 {
     public static void main(String[] args) {
         DoubleLinkedLists14 dll = new DoubleLinkedLists14();
         Scanner sc = new Scanner(System.in);
-        int choice, index;
+        int pilihan, index;
         String nim, nama, kelas;
         double ipk;
         do {
@@ -25,9 +25,9 @@ public class DoubleLinkedListsMain14 {
             System.out.println("14. Tampilkan Jumlah Data");
             System.out.println("0. Keluar");
             System.out.print("Pilihan Anda : ");
-            choice = sc.nextInt();
+            pilihan = sc.nextInt();
             sc.nextLine();
-            switch (choice) {
+            switch (pilihan) {
                 case 1:
                     System.out.print("Masukkan NIM : ");
                     nim = sc.nextLine();
@@ -132,6 +132,6 @@ public class DoubleLinkedListsMain14 {
                 default:
                     System.out.println("Pilihan tidak valid!");
             }
-        } while (choice != 0);
+        } while (pilihan != 0);
     }
 }
